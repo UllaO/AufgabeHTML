@@ -1,0 +1,155 @@
+
+
+
+html, body, #container {
+    height : 100%;
+}
+
+body {
+    background-color: deepskyblue; /*deepskyblue hintergrundfarbe statt bild*/
+    background: url(../pic/bg.png) no-repeat center center fixed;
+    background-size: cover;/* background-image: url("../pic/index01.jpg") */
+    padding:0px;
+    margin:0px;
+    font-family: Garamond,"Times New Roman",Cambria; /*font fallback*/
+}
+
+h1 {
+    font-size: 200%;
+    font-family: Verdana,Calibri;
+    font-weight: bold;
+
+}
+
+/*total menüleiste und artikelfeld*/
+#container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+
+#main {
+    background-color: rgba(10,10,10,0.5);
+}
+
+/*rahmen menüfeld*/
+#contentContainer {
+  	background-color:red;
+    border: 0px blue solid;
+}
+
+/*header titel überschrift*/
+header {
+    width:100%;
+    font-family:Verdana;
+    font-weight: bold;
+    background-color:white;
+    text-align:center;
+    padding: 10px 0px 10px 0px;
+    border: 0px;
+    margin: auto;
+    font-size: 4vw;
+    color: black;
+}
+
+/*menüleiste hintergrund*/
+nav {
+    width: 100%;    /* 24+3+3=30 */
+    float: top;
+    background-color:#838a92; /*graublau*/
+    border: 0px red solid;
+    padding: 0%;
+	  font-size:15pt;
+
+}
+
+
+/*menüpunkte*/
+a.mylist {
+    background: #996633; /*hintergrund menüpunkte fell*/
+    display: block;
+    margin: 5px;
+    color: white; /*schriftfarbe menüpunkte*/
+    padding: 10px;
+    text-decoration: none;
+}
+a:hover.mylist {
+    background-color: #cccc99;/*hover menüpunkte hintergrund*/
+    color: #34344f;/*hover menüpunkte schrift*/
+
+}
+
+ul {
+
+     margin: 0px;
+     padding: 20px;
+}
+/*menüpunkte padding*/
+li {
+    background-color:#838a92;/*blaugrau*/
+    padding: 2px 15px 2px 15px;
+    margin: 0px;
+	float:top; display:inline-block; list-style:none;
+
+}
+
+/*text 90% der menüleiste angepasst*/
+section{
+  width: 90%;
+  float: left;
+  background-color: rgba(255,255,255,0.9); /*weiss transparent*/
+  border: 0px red solid;
+  padding: 20px 5% 0px 5%;
+  margin-bottom: 50px;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+
+}
+
+div.desc {
+    padding: 15px;
+
+	font-size:11px;
+}
+
+
+
+footer
+{
+    background-color:rgba(153, 153, 153, 0.7); /*footer hintergrundfarbe blaugrau transparent*/
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width:75%;
+    height:50px;
+    line-height: 20px;
+    padding-top:   0px;
+    margin-top:  -40px; /* put it in screen */
+    position:fixed;
+    bottom:0;
+    left:190px;
+}
+
+#footer-content
+{
+    width:100%;
+    text-align:center;
+    font-family: Verdana;
+    font-size: 1.5em;
+    color: white;
+    font-weight: bold;
+    padding-top: 15px;
+}
